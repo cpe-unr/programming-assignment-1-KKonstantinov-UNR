@@ -2,7 +2,9 @@
 #include <fstream>
 #include <string>
 #include "word_analyzer.h"
+
 using namespace std;
+
 
 int getWords(int strSize, string words, string wordFile);
 string findLongestWord(int wordStored, string words);
